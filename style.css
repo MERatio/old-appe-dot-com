@@ -29,7 +29,12 @@ ul {
 /* Nav */
 
 .nav {
-  background-color: black;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #000;
+  background: linear-gradient(#737373 0%, #5e5e5e 49%, #707070 51%);
+  border-radius: 4px;
+  color: #fff;
   width: 100%;
   max-width: 98rem;
   height: 3.6rem;
@@ -37,6 +42,101 @@ ul {
   top: 8.5rem;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.nav-list {
+  height: 100%;
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+  border-top: 1px solid #686868;
+  border-bottom: 1px solid #686868;
+}
+
+.nav-item:not(:last-of-type) {
+  border-right: 1px solid #464646;
+}
+
+.nav-item:not(:last-of-type):hover {
+  background: linear-gradient(#505050 0%, #393939 49%, #434343 51%);
+  border-top: 1px solid #4d4d4d;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.nav-link {
+  text-indent: -9999px;
+}
+
+.nav-link {
+  display: block;
+  height: 100%;
+}
+
+.nav-link span {
+  display: block;
+  height: 3rem;
+  margin: 3px 0;
+  background-image: url(images/global-nav-texts.svg);
+}
+
+.nav-apple span {
+  background-position: 50% 0;
+}
+
+.nav-store span {
+  background-position: 50% -30px;
+}
+
+.nav-mac span {
+  background-position: 50% -60px;
+}
+
+.nav-ipod span {
+  background-position: 50% -90px;
+}
+
+.nav-iphone span {
+  background-position: 50% -120px;
+}
+
+.nav-ipad span {
+  background-position: 50% -150px;
+}
+
+.nav-itunes span {
+  background-position: 50% -180px;
+}
+
+.nav-support span {
+  background-position: 50% -210px;
+}
+
+.nav-search {
+  flex-grow: 1.3;
+}
+
+.nav-search-form {
+  max-width: 10.6rem;
+  margin: 6px auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav-search-form .fa-search {
+  margin-right: -2rem;
+}
+
+.nav-search-form input {
+  color: #fff;
+  padding-left: 3rem;
+  width: 100%;
+  height: 2.2rem;
+  background: transparent;
+  border: none;
+  box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
+  border-radius: 1.9rem;
 }
 
 /* Hero */
