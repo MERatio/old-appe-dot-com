@@ -125,10 +125,6 @@ ul {
   align-items: center;
 }
 
-.nav-search-form .fa-search {
-  margin-right: -2rem;
-}
-
 .nav-search-form input {
   color: #fff;
   padding-left: 3rem;
@@ -138,6 +134,7 @@ ul {
   border: none;
   box-shadow: inset 0px 1px 1px 1px rgba(0, 0, 0, 0.75);
   border-radius: 1.9rem;
+  margin-left: -2rem;
 }
 
 /* Hero */
