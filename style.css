@@ -143,8 +143,8 @@ ul {
 
 .hero {
   color: #fff;
-  background-color: blue;
   height: 53.5rem;
+  background: url(images/your-herse-hero.jpg) bottom no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
