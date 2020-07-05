@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  position: relative;
+}
+
+/* Nav */
+
+.nav {
+  background-color: black;
+  width: 100%;
+  max-width: 98rem;
+  height: 3.6rem;
+  position: absolute;
+  top: 8.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Hero */
+
+.hero {
+  color: #fff;
+  background-color: blue;
+  height: 53.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  background-color: red;
+  width: 98rem;
+  height: 33.5rem;
+  margin-top: 11rem;
+}
+
+.your-verse-title {
+  height: 10rem;
+  overflow: hidden;
+  margin-bottom: -0.7rem;
+}
+
+.your-verse-subhead {
+  margin-bottom: 2.5rem;
+}
+
+.cta-your-verse {
+  height: 3rem;
+  overflow: hidden;
+}
+
+/* Boxes */
+
+.boxes {
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box-item {
+  height: 20rem;
+  border: 1px solid black;
+}
+
+.box-link {
+}
+
+.box-img {
+}
