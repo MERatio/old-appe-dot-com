@@ -121,6 +121,7 @@ ul {
   max-width: 10.6rem;
   margin: 6px auto;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
