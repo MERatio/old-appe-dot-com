@@ -173,6 +173,15 @@ ul {
   overflow: hidden;
 }
 
+.cta-your-verse-link {
+  display: block;
+  height: 100%;
+}
+
+.cta-your-verse-link:hover {
+  margin-top: -32px;
+}
+
 /* Promos */
 
 .promos-aside {
